@@ -1,0 +1,160 @@
+:root {
+    --fundo-principal: #0B1120;
+    --fundo-secundario: #111827;
+    --fundo-card: #172033;
+    --cor-destaque: #00D4FF;
+    --cor-destaque-secundaria: #00FFA3;
+    --texto-principal: #F1F5F9;
+    --texto-secundario: #94A3B8;
+    --borda: #263449;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--texto-principal);
+}
+
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: var(--cor-destaque-secundaria);
+}
+
+/* Cabeçalho e navegação */
+.cabecalho {
+    padding: 15px 5%;
+    background-color: var(--fundo-secundario);
+    border-bottom: 1px solid var(--borda);
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 0 12px;
+    color: var(--texto-principal);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: var(--cor-destaque);
+}
+
+.menu ul,
+.rodape ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li,
+.rodape li {
+    display: inline;
+    margin-right: 12px;
+}
+
+.menu a {
+    padding: 8px 10px;
+    border: 1px solid var(--borda);
+    color: var(--texto-secundario);
+}
+
+.menu a:hover {
+    border: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque);
+}
+/* Formulário de login */
+main {
+    width: 80%;
+    max-width: 480px;
+    margin: 30px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--fundo-card);
+    border: 1px solid var(--borda);
+}
+
+main h1 {
+    margin-top: 0;
+}
+
+main p {
+    color: var(--texto-secundario);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--texto-principal);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--fundo-principal);
+    border: 1px solid var(--borda);
+    color: var(--texto-principal);
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 1px solid var(--cor-destaque);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--fundo-secundario);
+    border: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--fundo-principal);
+}
+
+.Bem_Vindo {
+    text-align: center;
+}
+
+
+/* Rodapé */
+.rodape {
+    padding: 30px 5%;
+    background-color: var(--fundo-secundario);
+    border-top: 1px solid var(--borda);
+    text-align: center;
+}
+
+.rodape nav {
+    margin: 16px 0;
+}
+
+.rodape nav a {
+    color: var(--texto-secundario);
+}
+
+.rodape nav a:hover {
+    color: var(--cor-destaque);
+}
+
+.rodape p {
+    color: var(--texto-secundario);
+    font-size: 14.4px;
+}
