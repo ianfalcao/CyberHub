@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHub | Vulnerabilidades</title>
+    <meta name="description" content="Conheça vulnerabilidades de segurança, seus níveis de severidade e recomendações de proteção.">
+    <meta name="author" content="Ian Falcão">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="../index.html" aria-label="CyberHub - página inicial">CyberHub</a>
+
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="vulnerabilidades.html" aria-current="page"><strong>Vulnerabilidades</strong></a></li>
+                <li><a href="ferramentas.html">Ferramentas</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="inicio" aria-labelledby="titulo-pagina">
+            <p class="chamada">Conhecimento para proteger sistemas</p>
+            <h1 id="titulo-pagina">Catálogo de Vulnerabilidades</h1>
+            <p>
+                Vulnerabilidades são falhas que podem colocar sistemas e informações em risco.
+                Identificá-las e corrigi-las ajuda a evitar ataques e proteger os dados.
+            </p>
+        </section>
+
+        <section class="sobre" aria-labelledby="titulo-vulnerabilidades">
+            <h2 id="titulo-vulnerabilidades">O que são vulnerabilidades?</h2>
+            <p>
+                Uma vulnerabilidade é uma falha ou fraqueza em um sistema, programa ou
+                configuração. Ela pode ser aproveitada por pessoas mal-intencionadas para
+                acessar informações, interromper serviços ou realizar ações não autorizadas.
+            </p>
+            <p>
+                Manter os softwares atualizados e aplicar as correções disponibilizadas pelos
+                fabricantes são medidas importantes para reduzir esses riscos.
+            </p>
+        </section>
+
+        <section class="conceitos" aria-labelledby="titulo-conhecidas">
+            <h2 id="titulo-conhecidas">Vulnerabilidades Conhecidas</h2>
+            <p>Conheça alguns exemplos de falhas que tiveram grande impacto:</p>
+
+            <div class="lista-cards">
+                <article class="card">
+                    <h3>CVE-2021-44228 — Log4Shell</h3>
+                    <p>Falha na biblioteca Log4j que pode permitir a execução de código malicioso em sistemas afetados.</p>
+                    <p><strong>Severidade:</strong> Crítica | <strong>CVSS:</strong> 10,0</p>
+                    <p><strong>Mitigação:</strong> Atualizar o Log4j para uma versão corrigida e seguir as orientações do fabricante.</p>
+                </article>
+
+                <article class="card">
+                    <h3>CVE-2014-0160 — Heartbleed</h3>
+                    <p>Falha no OpenSSL que pode expor informações armazenadas na memória de sistemas afetados.</p>
+                    <p><strong>Severidade:</strong> Alta | <strong>CVSS:</strong> 7,5</p>
+                    <p><strong>Mitigação:</strong> Atualizar o OpenSSL e, quando necessário, substituir certificados e senhas que possam ter sido expostos.</p>
+                </article>
+
+                <article class="card">
+                    <h3>CVE-2017-0144 — EternalBlue</h3>
+                    <p>Falha no Windows que pode permitir a execução de código malicioso por meio da rede.</p>
+                    <p><strong>Severidade:</strong> Alta | <strong>CVSS:</strong> 8,1 (versão 3)</p>
+                    <p><strong>Mitigação:</strong> Instalar as atualizações de segurança do Windows e desativar o SMBv1 quando possível.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="areas" aria-labelledby="titulo-cve-cvss">
+            <h2 id="titulo-cve-cvss">Entendendo o CVE e o CVSS</h2>
+            <p><strong>CVE:</strong> identificador usado para catalogar vulnerabilidades conhecidas, facilitando sua identificação e consulta.</p>
+            <p><strong>CVSS:</strong> sistema usado para avaliar a gravidade de vulnerabilidades por meio de uma pontuação.</p>
+            <p>As classificações de severidade são:</p>
+            <ul>
+                <li>Baixa</li>
+                <li>Média</li>
+                <li>Alta</li>
+                <li>Crítica</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a class="logo" href="../index.html">CyberHub</a>
+        <nav aria-label="Navegação do rodapé">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="vulnerabilidades.html">Vulnerabilidades</a></li>
+                <li><a href="ferramentas.html">Ferramentas</a></li>
+                <li><a href="sobre.html">Sobre o projeto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <p>&copy;Criado por Ian Falcão</p>
+    </footer>
+</body>
+</html>
