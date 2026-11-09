@@ -84,15 +84,6 @@ a:hover {
     color: var(--cor-destaque);
 }
 
-/* Conteúdo principal */
-.sobre,
-.conceitos,
-.areas {
-    width: 80%;
-    margin: 0 auto;
-    padding: 49px 0;
-}
-
 .inicio {
     padding: 60px 5%;
     background-color: var(--fundo-secundario);
@@ -107,27 +98,6 @@ a:hover {
 
 .inicio h1 {
     font-size: 40px;
-}
-
-.inicio .frase-destaque {
-    color: var(--cor-destaque);
-    font-size: 18px;
-}
-
-.acoes {
-    text-align: center;
-}
-
-.botao {
-    display: inline;
-    margin: 6px;
-    padding: 10px;
-    border: 1px solid var(--cor-destaque);
-}
-
-.botao:hover {
-    background-color: var(--cor-destaque);
-    color: var(--fundo-principal);
 }
 
 /* Conceitos e áreas de conteúdo */
@@ -151,30 +121,8 @@ a:hover {
     color: var(--texto-secundario);
 }
 
-.card a {
-    font-weight: bold;
-}
-
 .card:hover {
     border: 1px solid var(--cor-destaque);
-}
-
-/* Segurança digital */
-.importancia {
-    padding: 40px 5%;
-    background-color: var(--fundo-secundario);
-    border-top: 1px solid var(--borda);
-    border-bottom: 1px solid var(--borda);
-}
-
-.importancia h2,
-.importancia p {
-    width: 90%;
-    margin: 16px auto;
-}
-
-.importancia p {
-    color: var(--texto-secundario);
 }
 
 /* Rodapé */
@@ -201,3 +149,13 @@ a:hover {
     color: var(--texto-secundario);
     font-size: 0.9rem;
 }
+
+/* Seções do catálogo de vulnerabilidades */
+.sobre,
+.conceitos,
+.areas {
+    width: 80%;
+    margin: 0 auto;
+    padding: 49px 0;
+}
+

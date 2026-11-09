@@ -1,0 +1,204 @@
+:root {
+    --fundo-principal: #0B1120;
+    --fundo-secundario: #111827;
+    --fundo-card: #172033;
+    --cor-destaque: #00D4FF;
+    --cor-destaque-secundaria: #00FFA3;
+    --texto-principal: #F1F5F9;
+    --texto-secundario: #94A3B8;
+    --borda: #263449;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--texto-principal);
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--borda);
+}
+
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor-destaque-secundaria);
+}
+
+/* Cabeçalho e navegação */
+.cabecalho {
+    padding: 15px 5%;
+    background-color: var(--fundo-secundario);
+    border-bottom: 1px solid var(--borda);
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 0 12px;
+    color: var(--texto-principal);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: var(--cor-destaque);
+}
+
+.menu ul,
+.rodape ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li,
+.rodape li {
+    display: inline;
+    margin-right: 12px;
+}
+
+.menu a {
+    padding: 8px 10px;
+    border: 1px solid var(--borda);
+    color: var(--texto-secundario);
+}
+
+.menu a:hover {
+    border: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque);
+}
+
+.inicio {
+    padding: 60px 5%;
+    background-color: var(--fundo-secundario);
+    border-bottom: 1px solid var(--borda);
+    text-align: center;
+}
+
+.inicio .chamada {
+    color: var(--cor-destaque-secundaria);
+    font-weight: bold;
+}
+
+.inicio h1 {
+    font-size: 40px;
+}
+
+/* Conceitos e áreas de conteúdo */
+.conceitos p {
+    color: var(--texto-secundario);
+}
+
+.card {
+    margin: 16px 0;
+    padding: 20px;
+    background-color: var(--fundo-card);
+    border: 1px solid var(--borda);
+    border-left: 3px solid var(--cor-destaque);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+}
+
+.card p {
+    color: var(--texto-secundario);
+}
+
+.card:hover {
+    border: 1px solid var(--cor-destaque);
+}
+
+/* Rodapé */
+.rodape {
+    padding: 30px 5%;
+    background-color: var(--fundo-secundario);
+    border-top: 1px solid var(--borda);
+    text-align: center;
+}
+
+.rodape nav {
+    margin: 16px 0;
+}
+
+.rodape nav a {
+    color: var(--texto-secundario);
+}
+
+.rodape nav a:hover {
+    color: var(--cor-destaque);
+}
+
+.rodape p {
+    color: var(--texto-secundario);
+    font-size: 0.9rem;
+}
+
+/* Seções da página inicial */
+.sobre,
+.conceitos,
+.areas {
+    width: 80%;
+    margin: 0 auto;
+    padding: 49px 0;
+}
+
+.inicio .frase-destaque {
+    color: var(--cor-destaque);
+    font-size: 18px;
+}
+
+.acoes {
+    text-align: center;
+}
+
+.botao {
+    display: inline;
+    margin: 6px;
+    padding: 10px;
+    border: 1px solid var(--cor-destaque);
+}
+
+.botao:hover {
+    background-color: var(--cor-destaque);
+    color: var(--fundo-principal);
+}
+
+.card a {
+    font-weight: bold;
+}
+
+/* Segurança digital */
+.importancia {
+    padding: 40px 5%;
+    background-color: var(--fundo-secundario);
+    border-top: 1px solid var(--borda);
+    border-bottom: 1px solid var(--borda);
+}
+
+.importancia h2,
+.importancia p {
+    width: 90%;
+    margin: 16px auto;
+}
+
+.importancia p {
+    color: var(--texto-secundario);
+}
+
