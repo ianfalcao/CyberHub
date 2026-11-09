@@ -155,3 +155,14 @@ a:hover {
 .card p {
     color: var(--texto-secundario);
 }
+
+/* Imagens das ferramentas */
+.imagem-ferramenta {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 20px auto 0;
+    border: 1px solid var(--borda);
+    border-radius: 4px;
+}
